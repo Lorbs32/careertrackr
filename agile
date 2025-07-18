@@ -1,1 +1,9 @@
-
+Sprint 1 - 7/18/25
+    Set up Kanban board for project
+    Initialized project with Spring startup
+    Created JobApplication entity
+    Created repository
+    Created service layer (CRUD logic)
+    Created controller (REST endpoints)
+    Connected to MySQL database
+    Tested all endpoints on Postman
