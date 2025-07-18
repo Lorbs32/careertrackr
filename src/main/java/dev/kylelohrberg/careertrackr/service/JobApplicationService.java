@@ -41,6 +41,8 @@ public class JobApplicationService {
             existing.setPositionTitle(updatedApp.getPositionTitle());
             existing.setStatus(updatedApp.getStatus());
             existing.setAppliedDate(updatedApp.getAppliedDate());
+            existing.setLocation(updatedApp.getLocation());
+            existing.setNotes(updatedApp.getNotes());
             return repository.save(existing);
         }).orElseThrow(() -> new RuntimeException("Job application not found"));
     }
