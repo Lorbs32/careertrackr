@@ -1,9 +1,12 @@
 Sprint 1 - 7/18/25
     Set up Kanban board for project
+        `/docs/screenshots/github_project_board.png`
     Initialized project with Spring startup
     Created JobApplication entity
     Created repository
     Created service layer (CRUD logic)
     Created controller (REST endpoints)
     Connected to MySQL database
+        `/docs/screenshots/mysql_workbench.png`
     Tested all endpoints on Postman
+        `/docs/screenshots/postman.png`
